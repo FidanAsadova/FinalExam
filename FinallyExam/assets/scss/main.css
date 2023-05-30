@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: #343a40;
+}
+header .container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+header .container .header nav .header-ul {
+  display: flex;
+  gap: 40px;
+}
+header .container .header nav .header-ul li .nav-a {
+  color: gainsboro;
+  text-decoration: none;
+}
+header .container .header nav .header-ul li .nav-a:hover {
+  color: white;
+}
+header .container .header nav .header-ul li .first-drop {
+  text-decoration: none;
+  color: black;
+}
+header .container .header nav .header-ul li .first-drop .dropdown .dropdown-menu li .dropdown-item {
+  color: black;
+}
+@media only screen and (max-width: 991px) {
+  header .container .header nav {
+    display: none;
+  }
+}
+header .container .header .icon {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  header .container .header .icon {
+    display: block;
+  }
+}
+header .container .header .header-btns {
+  display: flex;
+  gap: 5px;
+}
+header .container .header .header-btns a {
+  text-decoration: none;
+  color: white;
+}
+header .container .header .header-btns .register {
+  border: 1px solid #669c19;
+  background-color: transparent;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+header .container .header .header-btns .register:hover {
+  background-color: #669c19;
+}
+header .container .header .header-btns .login {
+  background-color: #669c19;
+  padding: 10px 25px;
+}
+
+footer {
+  background-color: #393E46;
+}
+footer .container .footer {
+  padding: 70px 0;
+}
+
+#add .container .add {
+  padding: 150px 0;
+}
+
+#fav .container .fav {
+  padding: 100px 0;
+}
+
+#hosting {
+  background-color: #f8f9fa;
+}
+#hosting .container .hosting {
+  padding: 100px 0;
+}
+#hosting .container .hosting .row .col .host {
+  padding: 50px 0;
+  background-color: #fff;
+}
+#hosting .container .hosting .row .col .host .view {
+  border: 1px solid #669c19;
+  background-color: #669c19;
+  padding: 10px 20px;
+  transition: 0.3s;
+  color: white;
+}
+#hosting .container .hosting .row .col .host .view:hover {
+  background-color: #669c19;
+}
+
+#home .home #carouselExampleFade {
+  position: relative;
+}
+#home .home #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 300px;
+}
+#home .home #carouselExampleFade .carousel-inner .carousel-item .carousel-caption .carrusel-p {
+  font-size: 80px !important;
+}
+#home .home #carouselExampleFade .carousel-inner .carousel-item .carousel-caption .btm-text {
+  font-size: 25px;
+}
+#home .home #carouselExampleFade .carousel-inner .carousel-item .carousel-caption .btns {
+  padding-top: 20px;
+}
+#home .home #carouselExampleFade .carousel-inner .carousel-item .carousel-caption .btns .download {
+  text-decoration: none;
+  background-color: #669c19;
+  border: 1px solid #669c19;
+  padding: 20px 30px;
+  transition: 0.3s;
+  color: white;
+}
+#home .home #carouselExampleFade .carousel-inner .carousel-item .carousel-caption .btns .get {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 20px 40px;
+  transition: 0.3s;
+  color: white;
+}
+#home .home #carouselExampleFade .carousel-inner .carousel-item .carousel-caption .btns .get:hover {
+  background-color: white;
+  color: black;
+}
+
+#products .container .products {
+  padding: 100px 0;
+}
+#products .container .products .search-sort button {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #669c19;
+  padding: 0 40px;
+  transition: 0.3s;
+  color: black;
+  border-radius: 30px;
+}
+#products .container .products .row .col .proud {
+  border: 1px solid gainsboro;
+  padding: 30px 40px;
+  transition: 0.7s;
+}
+#products .container .products .row .col .proud .img {
+  background-color: #fff;
+}
+#products .container .products .row .col .proud .proud-body {
+  color: gray;
+}
+#products .container .products .row .col .proud:hover {
+  background-color: #669c19;
+}
+#products .container .products .row .col .proud:hover .proud-title {
+  color: white;
+}
+#products .container .products .row .col .proud:hover .proud-body {
+  color: white;
+}
+#products .container .products .row .col .proud .btns-proud a {
+  text-decoration: none;
+  border: 1px solid gainsboro;
+  border-radius: 30px;
+  padding: 5px 20px;
+  background-color: #fff;
+}
+
+#register {
+  background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  position: relative;
+}
+#register .container .register {
+  padding: 200px 0;
+}
+#register .container .register .re-now {
+  text-decoration: none;
+  border: 1px solid #669c19;
+  background-color: #669c19;
+  padding: 10px 20px;
+  transition: 0.3s;
+  color: white;
+}
+
+#details .container .details {
+  padding: 100px 0;
+}/*# sourceMappingURL=main.css.map */

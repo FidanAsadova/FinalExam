@@ -1,0 +1,69 @@
+header {
+  background-color: #343a40;
+  .container {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 0;
+      nav {
+        .header-ul {
+          display: flex;
+          gap: 40px;
+          li {
+            .nav-a {
+              color: gainsboro;
+              text-decoration: none;
+              &:hover {
+                color: white;
+              }
+            }
+            .first-drop {
+              text-decoration: none;
+              color: black;
+              .dropdown {
+                .dropdown-menu {
+                  li {
+                    .dropdown-item {
+                      color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        @media only screen and (max-width: 991px) {
+          display: none;
+        }
+      }
+      .icon{
+        display: none;
+        @media only screen and (max-width: 991px) {
+          display: block;
+        }
+      }
+      .header-btns {
+        display: flex;
+        gap: 5px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        .register {
+          border: 1px solid #669c19;
+          background-color: transparent;
+          padding: 10px 20px;
+          transition: 0.3s;
+          &:hover {
+            background-color: #669c19;
+          }
+        }
+        .login {
+          background-color: #669c19;
+          padding: 10px 25px;
+        }
+      }
+    }
+  }
+}

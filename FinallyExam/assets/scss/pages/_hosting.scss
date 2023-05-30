@@ -1,0 +1,27 @@
+#hosting {
+  background-color: #f8f9fa;
+  .container {
+    .hosting {
+      padding: 100px 0;
+      .row {
+        .col {
+          .host {
+           
+            padding: 50px 0;
+            background-color: #fff;
+            .view {
+              border: 1px solid #669c19;
+              background-color: #669c19;
+              padding: 10px 20px;
+              transition: 0.3s;
+              color: white;
+              &:hover {
+                background-color: #669c19;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+#products {
+  .container {
+    .products {
+      padding: 100px 0;
+      .search-sort {
+        button {
+          text-decoration: none;
+          background-color: transparent;
+          border: 1px solid #669c19;
+          padding: 0 40px;
+          transition: 0.3s;
+          color: black;
+          border-radius: 30px;
+        }
+      }
+      .row {
+        .col {
+          .proud {
+            border: 1px solid gainsboro;
+            padding: 30px 40px;
+            transition: .7s;
+            .img{
+              background-color: #fff;
+            }
+            .proud-body{
+              color: gray;
+            }
+            &:hover {
+              background-color: #669c19;
+            }
+            &:hover .proud-title{
+              color: white;
+            }
+            &:hover .proud-body{
+              color: white;
+            }
+            .btns-proud {
+              a {
+                text-decoration: none;
+                border: 1px solid gainsboro;
+                border-radius: 30px;
+                padding: 5px 20px;
+                background-color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

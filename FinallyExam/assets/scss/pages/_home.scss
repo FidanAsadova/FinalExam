@@ -1,0 +1,44 @@
+#home {
+  .home {
+    #carouselExampleFade {
+        position: relative;
+      .carousel-inner {
+        .carousel-item {
+          .carousel-caption {
+            position: absolute;
+            top: 300px;
+            .carrusel-p {
+              font-size: 80px !important;
+            }
+            .btm-text {
+              font-size: 25px;
+            }
+            .btns {
+                padding-top: 20px;
+              .download {
+                text-decoration: none;
+                background-color: #669c19;
+                border: 1px solid #669c19;
+                padding: 20px 30px;
+                transition: 0.3s;
+                color: white;
+              }
+              .get{
+                text-decoration: none;
+                background-color: transparent;
+                border: 1px solid white;
+                padding: 20px 40px;
+                transition: 0.3s;
+                color: white;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "title": "Fidan",
+      "body": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "id": 3
+    },
+    {
+      "title": "Outstanding Speed",
+      "body": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "id": 4
+    },
+    {
+      "title": "Amazing Uptime",
+      "body": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "id": 5
+    },
+    {
+      "title": "Best Support",
+      "body": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "id": 6
+    },
+    {
+      "title": "Client Reviews",
+      "body": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "id": 7
+    }
+  ],
+  "fav": [
+    {
+      "title": "Fidan",
+      "body": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "id": 3
+    },
+    {
+      "title": "Outstanding Speed",
+      "body": "Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos.",
+      "id": 4
+    }
+  ]
+}

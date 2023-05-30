@@ -1,0 +1,21 @@
+#register{
+    background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .9;
+    position: relative;
+
+    .container{
+        .register{
+            padding: 200px 0;
+            .re-now{
+                text-decoration: none;
+                border: 1px solid #669c19;
+                background-color: #669c19;
+                padding: 10px 20px;
+                transition: 0.3s;
+                color: white;
+            }
+        }
+    }
+}
